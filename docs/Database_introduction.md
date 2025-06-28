@@ -62,6 +62,14 @@ We generated a high‐resolution haplotype panel as follows:
   4. Population diversity & structural variation studies  
   5. Immunogenic neoantigen prediction  
 
+## Download
+
+Click the link below to download the EAMHC panel. To ensure the accuracy and reliability of the results, we recommend that input datasets for imputation and phasing share at least a 50% overlap of variants with the EAMHC panel:
+
+![Download Reference](figs/download.png)
+
+
+
 All data and tools are freely accessible on the EAMHC web portal. Start exploring at [EAMHC Website](#).
 
 ---

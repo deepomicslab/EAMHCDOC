@@ -2,7 +2,7 @@
     -   [Introduction](/)
     -   [Contact us](/contact.md)
 -   Database
-    -   [Database introduction](/Database_introduction.md)
+    -   [Database introduction and download](/Database_introduction.md)
 -   Analysis and Visualization
     -   [HLA typing](/Typing.md)
     -   [Imputation / Phasing](/Impute.md)
