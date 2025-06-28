@@ -9,7 +9,7 @@
 
 We collected 20,635 samples from individuals of East Asian ancestry, encompassing **41,270 unique MHC haplotypes**, to construct a high‐resolution East Asian MHC reference panel. This resource is freely accessible on the EAMHC website, complete with links to all original data sources.  
 
-![image](/figs/overview.png)
+![image](figs/overview.png)
 
 On the site, you can explore:
 - **Nucleotide Diversity**
@@ -43,5 +43,5 @@ EAMHC provides five unified, MHC‐focused analysis modules:
 Explore each module interactively and visualize results in real time. Visit the [EAMHC website](#) to get started!
 
 
-![image](/figs/analysis_viz.png)
+![image](figs/analysis_viz.png)
 

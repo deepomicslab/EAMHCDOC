@@ -1,6 +1,6 @@
 # Welcome to MHC Database database
 
-![image](/figs/overview.png)
+![image](figs/overview.png)
 
 # Welcome to EAMHC
 

@@ -11,19 +11,19 @@ We provide a highly user-friendly interface for HLA typing from raw sequencing d
 ### 1. Launch HLA Typing Module  
 Click **HLA Typing** in the analysis menu, then **Start**.  
 <div align="center">
-  <img src="/figs/typing/start.png" alt="Start">
+  <img src="figs/typing/start.png" alt="Start">
 </div>
 
 ### 2. Upload Data  
 - Enter sample/task metadata (Sample ID, Project Name).  
 - Select data format: **NGS**, **TGS**, or **Mix**.  
 <div align="center">
-  <img src="/figs/typing/upload.png" alt="Upload">
+  <img src="figs/typing/upload.png" alt="Upload">
 </div>  
 - View sample input & output files and example reports (NGS/TGS/Mix) at:  
   https://eamhc.deepomics.org/database  
 <div align="center">
-  <img src="/figs/typing/demo_data.png" alt="Demo">
+  <img src="figs/typing/demo_data.png" alt="Demo">
 </div>  
 - Upon submission, you’ll receive email notifications for job start, progress, completion, or failure.
 
@@ -32,18 +32,18 @@ Visit **Workspace**:
 https://eamhc.deepomics.org/workspace  
 Search by your registered email to view all jobs.  
 <div align="center">
-  <img src="/figs/typing/query.png" alt="Query">
+  <img src="figs/typing/query.png" alt="Query">
 </div>
 
 ### 4. Download Results  
 - **Allele Report** table (each allele links to IPD-IMGT/HLA for full annotation):  
   https://www.ebi.ac.uk/ipd/imgt/hla/  
 <div align="center">
-  <img src="/figs/typing/typing_table.png" alt="Allele Report">
+  <img src="figs/typing/typing_table.png" alt="Allele Report">
 </div>  
 - **Structural Variation** visualization per haplotype:  
 <div align="center">
-  <img src="/figs/typing/sv_demo.png" alt="SV Visualization">
+  <img src="figs/typing/sv_demo.png" alt="SV Visualization">
 </div>
 
 ---

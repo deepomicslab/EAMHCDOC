@@ -37,7 +37,7 @@ In addition, EAMHC implements two custom structural modes:
 ### 1. Launch Module  
 Click **Predicting Neoantigen Binding** → **Start**.  
 <div align="center">
-  <img src="/figs/binding/start.png" alt="Start Neoantigen Prediction">
+  <img src="figs/binding/start.png" alt="Start Neoantigen Prediction">
 </div>
 
 ### 2. Upload Data & Select Mode  
@@ -45,12 +45,12 @@ Click **Predicting Neoantigen Binding** → **Start**.
 - Select prediction mode: **PepConf** or **PepFore**.  
 - Optionally choose which of the five predictors to run or run all.  
 <div align="center">
-  <img src="/figs/binding/upload.png" alt="Upload Neoantigen Prediction">
+  <img src="figs/binding/upload.png" alt="Upload Neoantigen Prediction">
 </div>  
 - View example inputs & reports at:  
   https://eamhc.deepomics.org/database  
 <div align="center">
-  <img src="/figs/binding/demo_data.png" alt="Demo Neoantigen Prediction">
+  <img src="figs/binding/demo_data.png" alt="Demo Neoantigen Prediction">
 </div>  
 - On submission, you’ll receive email updates (start, progress, completion/failure).
 
@@ -59,21 +59,21 @@ Visit **Workspace**:
 https://eamhc.deepomics.org/workspace  
 Search by registered email.  
 <div align="center">
-  <img src="/figs/binding/query.png" alt="Query Neoantigen Prediction">
+  <img src="figs/binding/query.png" alt="Query Neoantigen Prediction">
 </div>
 
 ### 4. Download Results  
 - **Predicted pHLA-I Conformation** (interactive 3D)  
   <div align="center">
-    <img src="/figs/binding/pdb.png" alt="Predicted Conformation">
+    <img src="figs/binding/pdb.png" alt="Predicted Conformation">
   </div>  
 - **Affinity Prediction Summary** from netMHCpan, MHCflurry, DeepHLAPan, HLAthena  
   <div align="center">
-    <img src="/figs/binding/tables.png" alt="Tool Comparison">
+    <img src="figs/binding/tables.png" alt="Tool Comparison">
   </div>  
 - **Full Results** (scores, conformations, per-tool reports)  
   <div align="center">
-    <img src="/figs/binding/demo_data.png" alt="Neoantigen Prediction Results">
+    <img src="figs/binding/demo_data.png" alt="Neoantigen Prediction Results">
   </div>
 
 ---

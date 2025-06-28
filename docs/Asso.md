@@ -16,7 +16,7 @@ Interactive visualizations and downloadable tables/plots are provided. Example i
 ### 1. Launch Association Module  
 Click **HLA Phenotypes Association** in the analysis menu, then **Start**.  
 <div align="center">
-  <img src="/figs/association/start.png" alt="Start Association">
+  <img src="figs/association/start.png" alt="Start Association">
 </div>
 
 ### 2. Upload Data  
@@ -24,12 +24,12 @@ Click **HLA Phenotypes Association** in the analysis menu, then **Start**.
 - Upload **Allele file** (required) and **Covariates file** (optional).  
 - Choose **Association Method** and **Multiple Testing Adjustment**.  
 <div align="center">
-  <img src="/figs/association/upload.png" alt="Upload Association">
+  <img src="figs/association/upload.png" alt="Upload Association">
 </div>  
 - View example inputs & reports at:  
   https://eamhc.deepomics.org/database  
 <div align="center">
-  <img src="/figs/association/demo_data.png" alt="Demo Association">
+  <img src="figs/association/demo_data.png" alt="Demo Association">
 </div>  
 - Submission triggers email updates for job start, progress, completion, or failure.
 
@@ -38,29 +38,29 @@ Visit **Workspace**:
 https://eamhc.deepomics.org/workspace  
 Search by your registered email.  
 <div align="center">
-  <img src="/figs/association/query.png" alt="Query Association">
+  <img src="figs/association/query.png" alt="Query Association">
 </div>
 
 ### 4. Download Results  
 - **Summary report**  
   <div align="center">
-    <img src="/figs/association/summary.png" alt="Summary">
+    <img src="figs/association/summary.png" alt="Summary">
   </div>  
 - **Allele-level association**  
   <div align="center">
-    <img src="/figs/association/allele_asso.png" alt="Allele-Level">
+    <img src="figs/association/allele_asso.png" alt="Allele-Level">
   </div>  
 - **Amino acid-level association**  
   <div align="center">
-    <img src="/figs/association/aa_asso.png" alt="Amino Acid-Level">
+    <img src="figs/association/aa_asso.png" alt="Amino Acid-Level">
   </div>  
 - **Zygosity analysis**  
   <div align="center">
-    <img src="/figs/association/zyg.png" alt="Zygosity">
+    <img src="figs/association/zyg.png" alt="Zygosity">
   </div>  
 - **Full results** (tables & plots)  
   <div align="center">
-    <img src="/figs/association/demo_data.png" alt="Association Results">
+    <img src="figs/association/demo_data.png" alt="Association Results">
   </div>
 
 ---

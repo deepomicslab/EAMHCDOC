@@ -9,19 +9,19 @@ Population genetic analyses of the MHC provide insights into its evolutionary dy
 ### 1. Launch Population Diversity Module  
 Click **HLA Population Diversity Analysis** in the analysis menu, then **Start**.  
 <div align="center">
-  <img src="/figs/diversity/start.png" alt="Start Population Diversity">
+  <img src="figs/diversity/start.png" alt="Start Population Diversity">
 </div>
 
 ### 2. Upload Data  
 - Enter sample/task metadata (Sample ID, Project Name).  
 - Upload **population VCF file** and **sample information file** (e.g., population labels).  
 <div align="center">
-  <img src="/figs/diversity/upload.png" alt="Upload Population Diversity">
+  <img src="figs/diversity/upload.png" alt="Upload Population Diversity">
 </div>  
 - Preview example inputs & outputs at:  
   https://eamhc.deepomics.org/database  
 <div align="center">
-  <img src="/figs/diversity/demo_data.png" alt="Demo Population Diversity">
+  <img src="figs/diversity/demo_data.png" alt="Demo Population Diversity">
 </div>  
 - Upon submission, email notifications will inform you of job start, progress, completion, or failure.
 
@@ -30,33 +30,33 @@ Visit **Workspace**:
 https://eamhc.deepomics.org/workspace  
 Search by your registered email to view all jobs.  
 <div align="center">
-  <img src="/figs/diversity/query.png" alt="Query Population Diversity">
+  <img src="figs/diversity/query.png" alt="Query Population Diversity">
 </div>
 
 ### 4. Download Results  
 - **PCA results** (interactive 2D/3D)  
   <div align="center">
-    <img src="/figs/diversity/pca.jpg" alt="PCA Summary">
+    <img src="figs/diversity/pca.jpg" alt="PCA Summary">
   </div>  
 - **Population genetic metrics** (LD decay, Tajima’s D, π)  
 <div align="center">
-    <img src="/figs/diversity/decay.png" alt="Population Genetics">
+    <img src="figs/diversity/decay.png" alt="Population Genetics">
   </div>  
   <div align="center">
-    <img src="/figs/diversity/tajima-d.png" alt="Population Genetics">
+    <img src="figs/diversity/tajima-d.png" alt="Population Genetics">
   </div>  
   <div align="center">
-    <img src="/figs/diversity/landscape.png" alt="Population Genetics">
+    <img src="figs/diversity/landscape.png" alt="Population Genetics">
   </div>  
   <div align="center">
-    <img src="/figs/diversity/distribution.png" alt="Population Genetics">
+    <img src="figs/diversity/distribution.png" alt="Population Genetics">
   </div>  
   <div align="center">
-    <img src="/figs/diversity/pi.png" alt="Population Genetics">
+    <img src="figs/diversity/pi.png" alt="Population Genetics">
   </div>  
 - **Full results** (tables & figures)  
   <div align="center">
-    <img src="/figs/diversity/demo_data.png" alt="Population Diversity Results">
+    <img src="figs/diversity/demo_data.png" alt="Population Diversity Results">
   </div>
 
 ---

@@ -1,6 +1,6 @@
 # Welcome to MHC Database database
 
-![image](/figs/overview.png)
+![image](figs/overview.png)
 
 
 The Major Histocompatibility Complex (MHC) is one of the most polymorphic regions of the human genome and plays a central role in immune recognition, disease susceptibility, and transplant compatibility. Despite its importance, high‐resolution, population‐specific reference panels remain limited—especially for East Asian populations. The East Asian MHC Consortium (EAMHC) addresses this gap by assembling deep‐coverage sequence data, state‐of‐the‐art variant‐calling and phasing pipelines, and interactive analysis tools into a unified web platform [1].
