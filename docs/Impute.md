@@ -23,19 +23,19 @@ All three options include example input/output files and reports to guide users 
 ### 1. Launch Imputation & Phasing Module  
 Click **Imputation & Phasing** in the analysis menu, then **Start**.  
 <div align="center">
-  <img src="/figs/imputation_phase/start.png" alt="Start Imputation & Phasing">
+  <img src="figs/imputation_phase/start.png" alt="Start Imputation & Phasing">
 </div>
 
 ### 2. Upload Data  
 - Enter sample/task metadata (Sample ID, Project Name).  
 - Select mode: **Only Imputation**, **Only Phasing**, or **Imputation + Phasing**.  
 <div align="center">
-  <img src="/figs/imputation_phase/upload.png" alt="Upload Imputation & Phasing">
+  <img src="figs/imputation_phase/upload.png" alt="Upload Imputation & Phasing">
 </div>  
 - View sample inputs & example reports for each mode at:  
   https://eamhc.deepomics.org/database  
 <div align="center">
-  <img src="/figs/imputation_phase/demo_data.png" alt="Demo Imputation & Phasing">
+  <img src="figs/imputation_phase/demo_data.png" alt="Demo Imputation & Phasing">
 </div>  
 - Upon submission, you’ll receive email notifications for job start, progress, completion, or failure.
 
@@ -44,17 +44,17 @@ Visit **Workspace**:
 https://eamhc.deepomics.org/workspace  
 Search by your registered email to view all jobs.  
 <div align="center">
-  <img src="/figs/imputation_phase/query.png" alt="Query Imputation & Phasing">
+  <img src="figs/imputation_phase/query.png" alt="Query Imputation & Phasing">
 </div>
 
 ### 4. Download Results  
 - **Sample Report** 
 <div align="center">
-  <img src="/figs/imputation_phase/impute_viz.png" alt="Allele Report">
+  <img src="figs/imputation_phase/impute_viz.png" alt="Allele Report">
 </div>  
 - **Imputed / Phased Results** in VCF and summary report  
 <div align="center">
-  <img src="/figs/imputation_phase/demo_data.png" alt="Results Download">
+  <img src="figs/imputation_phase/demo_data.png" alt="Results Download">
 </div>
 
 ---
