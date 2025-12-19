@@ -40,9 +40,7 @@ We assembled raw sequencing data spanning the 5 Mb classical MHC region from thr
 2. **1000 Genomes Project**  
    • 90 unrelated samples from multiple populations  
    • Ultra-high coverage: ~80×  
-3. **Human Genome Diversity Project (HGDP)**  
-   • 31 samples representing worldwide populations  
-   • Average coverage: 35×  
+
 
 _Total samples_: **20,756**  
 _Total unique haplotypes_: **41,270**  
