@@ -9,23 +9,46 @@ We provide a highly user-friendly interface for HLA typing from raw sequencing d
 ## Workflow Steps
 
 ### 1. Launch HLA Typing Module  
-Click **HLA Typing** in the analysis menu, then **Start**.  
+Click **HLA Typing** in the analysis menu to access the module. You will be presented with three data type options based on your sequencing platform.
+
+### 2. Select Data Type and Upload Data  
+
+Choose the appropriate mode based on your sequencing data:
+
+#### **Long Reads Mode (TGS)**  
+For third-generation sequencing data (PacBio, Nanopore, etc.):
+- Enter sample/task metadata (Sample ID, Project Name)
+- Configure run parameters as needed
+- Upload **1 FASTQ file** (maximum 50MB, as only the MHC region is analyzed)
+- Click the green **View Example** button to access sample data and example results
+
 <div align="center">
-  <img src="figs/typing/start.png" alt="Start">
+  <img src="server_figs/HLA_typing/tgs.png" alt="Long Reads Mode">
 </div>
 
-### 2. Upload Data  
-- Enter sample/task metadata (Sample ID, Project Name).  
-- Select data format: **NGS**, **TGS**, or **Mix**.  
+#### **Short Reads Mode (NGS)**  
+For next-generation paired-end sequencing data:
+- Enter sample/task metadata (Sample ID, Project Name)
+- Configure run parameters as needed
+- Upload **2 paired-end FASTQ files** (R1 and R2)
+- Click the green **View Example** button to access sample data and example results
+
 <div align="center">
-  <img src="figs/typing/upload.png" alt="Upload">
-</div>  
-- View sample input & output files and example reports (NGS/TGS/Mix) at:  
-  https://eamhc.deepomics.org/database  
+  <img src="server_figs/HLA_typing/ngs.png" alt="Short Reads Mode">
+</div>
+
+#### **Mixed Mode (Long Reads + Short Reads)**  
+For hybrid sequencing approaches combining both technologies:
+- Enter sample/task metadata (Sample ID, Project Name)
+- Configure run parameters as needed
+- Upload **3 FASTQ files**: 1 long-read file + 2 paired-end short-read files
+- Click the green **View Example** button to access sample data and example results
+
 <div align="center">
-  <img src="figs/typing/demo_data.png" alt="Demo">
-</div>  
-- Upon submission, you’ll receive email notifications for job start, progress, completion, or failure.
+  <img src="server_figs/HLA_typing/mix.png" alt="Mixed Mode">
+</div>
+
+Upon submission, you will receive email notifications for job start, progress, completion, or failure.
 
 ### 3. Query Job Status  
 Visit **Workspace**:  
@@ -39,11 +62,11 @@ Search by your registered email to view all jobs.
 - **Allele Report** table (each allele links to IPD-IMGT/HLA for full annotation):  
   https://www.ebi.ac.uk/ipd/imgt/hla/  
 <div align="center">
-  <img src="figs/typing/typing_table.png" alt="Allele Report">
+  <img src="server_figs/HLA_typing/typing_table.png" alt="Allele Report">
 </div>  
 - **Structural Variation** visualization per haplotype:  
 <div align="center">
-  <img src="figs/typing/sv_demo.png" alt="SV Visualization">
+  <img src="server_figs/HLA_typing/sv_demo.png" alt="SV Visualization">
 </div>
 
 ---

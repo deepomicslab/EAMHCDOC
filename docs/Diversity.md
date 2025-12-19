@@ -1,34 +1,31 @@
 # HLA Population Diversity Analysis
 
-Population genetic analyses of the MHC provide insights into its evolutionary dynamics, population structure, and selection pressures. In EAMHC, users can upload population-level VCF files for investigation. The platform utilizes **PLINK** to filter samples based on quality control metrics, prune loci in linkage disequilibrium (LD), and perform principal component analysis (PCA) to reveal substructure and reduce confounding. EAMHC also calculates genome-wide LD (r²), an indicator of co-segregation between loci, and employs **VCFtools** to compute Tajima’s D and nucleotide diversity (π). Tajima’s D detects deviations from neutrality (e.g., bottlenecks or selective sweeps), while π measures average pairwise diversity, reflecting evolutionary and demographic history. All outputs and visualizations—PCA plots, LD decay curves, Tajima’s D and π tracks—are downloadable. Example input files and results are provided to guide users through the workflow.
+Population genetic analyses of the MHC provide insights into its evolutionary dynamics, population structure, and selection pressures. In EAMHC, users can upload population-level VCF files for investigation. The platform utilizes **PLINK** to filter samples based on quality control metrics, prune loci in linkage disequilibrium (LD), and perform principal component analysis (PCA) to reveal substructure and reduce confounding. EAMHC also calculates genome-wide LD (r²), an indicator of co-segregation between loci, and employs **VCFtools** to compute Tajima's D and nucleotide diversity (π). Tajima's D detects deviations from neutrality (e.g., bottlenecks or selective sweeps), while π measures average pairwise diversity, reflecting evolutionary and demographic history. All outputs and visualizations—PCA plots, LD decay curves, Tajima's D and π tracks—are downloadable. Example input files and results are provided to guide users through the workflow.
 
 ---
 
 ## Workflow Steps
 
 ### 1. Launch Population Diversity Module  
-Click **HLA Population Diversity Analysis** in the analysis menu, then **Start**.  
+Click **HLA Population Diversity Analysis** in the analysis menu to access the module.
+
+### 2. Upload Data and Configure Analysis
+
+- Enter sample/task metadata (Sample ID, Project Name)
+- Upload **Population VCF file** (required): Contains variant data for your population samples
+- Upload **Sample information file** (required): Contains population labels and sample metadata
+- Click the green **View Example** button to access sample data and example results
+
 <div align="center">
-  <img src="figs/diversity/start.png" alt="Start Population Diversity">
+  <img src="server_figs/diversity/upload.png" alt="Upload Population Diversity">
 </div>
 
-### 2. Upload Data  
-- Enter sample/task metadata (Sample ID, Project Name).  
-- Upload **population VCF file** and **sample information file** (e.g., population labels).  
-<div align="center">
-  <img src="figs/diversity/upload.png" alt="Upload Population Diversity">
-</div>  
-- Preview example inputs & outputs at:  
-  https://eamhc.deepomics.org/database  
-<div align="center">
-  <img src="figs/diversity/demo_data.png" alt="Demo Population Diversity">
-</div>  
-- Upon submission, email notifications will inform you of job start, progress, completion, or failure.
+Upon submission, you will receive a **temporary link** and a **Task ID** that can be used to query job status and retrieve results.
 
 ### 3. Query Job Status  
 Visit **Workspace**:  
 https://eamhc.deepomics.org/workspace  
-Search by your registered email to view all jobs.  
+Search by your Task ID or use the temporary link to view job status and results.  
 <div align="center">
   <img src="figs/diversity/query.png" alt="Query Population Diversity">
 </div>
@@ -38,21 +35,21 @@ Search by your registered email to view all jobs.
   <div align="center">
     <img src="figs/diversity/pca.jpg" alt="PCA Summary">
   </div>  
-- **Population genetic metrics** (LD decay, Tajima’s D, π)  
+- **Population genetic metrics** (LD decay, Tajima's D, π)  
 <div align="center">
-    <img src="figs/diversity/decay.png" alt="Population Genetics">
+    <img src="figs/diversity/decay.png" alt="LD Decay">
   </div>  
   <div align="center">
-    <img src="figs/diversity/tajima-d.png" alt="Population Genetics">
+    <img src="figs/diversity/tajima-d.png" alt="Tajima's D">
   </div>  
   <div align="center">
-    <img src="figs/diversity/landscape.png" alt="Population Genetics">
+    <img src="figs/diversity/landscape.png" alt="Landscape">
   </div>  
   <div align="center">
-    <img src="figs/diversity/distribution.png" alt="Population Genetics">
+    <img src="figs/diversity/distribution.png" alt="Distribution">
   </div>  
   <div align="center">
-    <img src="figs/diversity/pi.png" alt="Population Genetics">
+    <img src="figs/diversity/pi.png" alt="Nucleotide Diversity">
   </div>  
 - **Full results** (tables & figures)  
   <div align="center">

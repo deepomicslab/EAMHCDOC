@@ -1,6 +1,6 @@
 # HLA Phenotypes Association Analysis
 
-HLA association analysis is indispensable for uncovering genetic factors linked to disease susceptibility and guiding precision medicine. The HLA association module in EAMHC provides a range of statistical tests—including Pearson’s chi-squared, Fisher’s exact, logistic or linear regression—and supports standard multiple-testing corrections: Bonferroni single-step p-values, Holm step-down, and two FDR procedures (Benjamini & Hochberg; Benjamini & Yekutieli). This module encompasses four main tasks:
+HLA association analysis is indispensable for uncovering genetic factors linked to disease susceptibility and guiding precision medicine. The HLA association module in EAMHC provides a range of statistical tests—including Pearson's chi-squared, Fisher's exact, logistic or linear regression—and supports standard multiple-testing corrections: Bonferroni single-step p-values, Holm step-down, and two FDR procedures (Benjamini & Hochberg; Benjamini & Yekutieli). This module encompasses four main tasks:
 
 1. **Data upload** and summary of HLA-typing at gene, allele, and population levels.  
 2. **Allele-level association**—case/control comparisons with QQ, volcano, Manhattan plots, heatmaps, and allele tables.  
@@ -14,29 +14,27 @@ Interactive visualizations and downloadable tables/plots are provided. Example i
 ## Workflow Steps
 
 ### 1. Launch Association Module  
-Click **HLA Phenotypes Association** in the analysis menu, then **Start**.  
+Click **HLA Phenotypes Association** in the analysis menu to access the module.
+
+### 2. Upload Data and Configure Analysis
+
+- Enter sample/task metadata (Sample ID, Project Name)
+- Upload **HLA file** (required): Contains HLA typing results for your samples
+- Upload **Covariates file** (optional): Contains additional variables for adjusted analysis
+- Select **Association Method**: Choose from Pearson's chi-squared, Fisher's exact, logistic regression, or linear regression
+- Select **Multiple Testing Adjustment**: Choose from Bonferroni, Holm step-down, Benjamini & Hochberg FDR, or Benjamini & Yekutieli FDR
+- Click the green **View Example** button to access sample data and example results
+
 <div align="center">
-  <img src="figs/association/start.png" alt="Start Association">
+  <img src="server_figs/association/upload.png" alt="Upload Association">
 </div>
 
-### 2. Upload Data  
-- Enter sample/task metadata (Sample ID, Project Name).  
-- Upload **Allele file** (required) and **Covariates file** (optional).  
-- Choose **Association Method** and **Multiple Testing Adjustment**.  
-<div align="center">
-  <img src="figs/association/upload.png" alt="Upload Association">
-</div>  
-- View example inputs & reports at:  
-  https://eamhc.deepomics.org/database  
-<div align="center">
-  <img src="figs/association/demo_data.png" alt="Demo Association">
-</div>  
-- Submission triggers email updates for job start, progress, completion, or failure.
+Upon submission, you will receive a **temporary link** and a **Task ID** that can be used to query job status and retrieve results.
 
 ### 3. Query Job Status  
 Visit **Workspace**:  
 https://eamhc.deepomics.org/workspace  
-Search by your registered email.  
+Search by your Task ID or use the temporary link to view job status and results.  
 <div align="center">
   <img src="figs/association/query.png" alt="Query Association">
 </div>

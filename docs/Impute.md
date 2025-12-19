@@ -21,28 +21,28 @@ All three options include example input/output files and reports to guide users 
 ## Workflow Steps
 
 ### 1. Launch Imputation & Phasing Module  
-Click **Imputation & Phasing** in the analysis menu, then **Start**.  
+Click **Imputation & Phasing** in the analysis menu to access the module.
+
+### 2. Upload Data and Select Analysis Mode
+
+- Enter sample/task metadata (Sample ID, Project Name)
+- Configure data processing parameters as needed
+- Select analysis mode based on your requirements:
+  - **Phasing Only**: For phasing complete sample genotypes
+  - **Imputation Only**: For imputing missing genotypes in pre-phased data
+  - **Phasing + Imputation**: For simultaneous phasing and imputation of data with missing loci
+- Click the green **View Example** button to access sample data and example results
+
 <div align="center">
-  <img src="figs/imputation_phase/start.png" alt="Start Imputation & Phasing">
+  <img src="server_figs/HLA_imputation/upload.png" alt="Upload Imputation & Phasing">
 </div>
 
-### 2. Upload Data  
-- Enter sample/task metadata (Sample ID, Project Name).  
-- Select mode: **Only Imputation**, **Only Phasing**, or **Imputation + Phasing**.  
-<div align="center">
-  <img src="figs/imputation_phase/upload.png" alt="Upload Imputation & Phasing">
-</div>  
-- View sample inputs & example reports for each mode at:  
-  https://eamhc.deepomics.org/database  
-<div align="center">
-  <img src="figs/imputation_phase/demo_data.png" alt="Demo Imputation & Phasing">
-</div>  
-- Upon submission, you’ll receive email notifications for job start, progress, completion, or failure.
+Upon submission, you will receive a **temporary link** and a **Task ID** that can be used to query job status and retrieve results.
 
 ### 3. Query Job Status  
 Visit **Workspace**:  
 https://eamhc.deepomics.org/workspace  
-Search by your registered email to view all jobs.  
+Search by your Task ID or use the temporary link to view job status and results.  
 <div align="center">
   <img src="figs/imputation_phase/query.png" alt="Query Imputation & Phasing">
 </div>

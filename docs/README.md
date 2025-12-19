@@ -43,5 +43,5 @@ EAMHC provides five unified, MHC‐focused analysis modules:
 Explore each module interactively and visualize results in real time. Visit the [EAMHC website](#) to get started!
 
 
-![image](figs/analysis_viz.png)
+![image](figs/MHC_OVERVIEW.png)
 
