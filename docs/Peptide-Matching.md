@@ -18,7 +18,7 @@ Click **Peptide Matching** in the analysis menu to access the module.
 - Click the green **View Example** button to access sample data and example results
 
 <div align="center">
-  <img src="server_figs/peptide_match/upload.png" alt="Upload Peptide Matching">
+  <img src="server_figs/Peptide-Matching/upload.png" alt="Upload Peptide Matching">
 </div>
 
 Upon submission, you will receive a **temporary link** and a **Task ID** that can be used to query job status and retrieve results.
@@ -31,7 +31,7 @@ Search by your Task ID or use the temporary link to view job status and results.
 ### 4. Download Results  
 - **Match results** with source protein annotations  
   <div align="center">
-    <img src="server_figs/peptide_match/demo.png" alt="Peptide Matching Results">
+    <img src="server_figs/Peptide-Matching/demo.png" alt="Peptide Matching Results">
   </div>
 
 ---

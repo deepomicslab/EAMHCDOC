@@ -17,7 +17,7 @@ Click **HLA-B Leader Matching** in the analysis menu to access the module.
 - Click the green **View Example** button to access sample data and example results
 
 <div align="center">
-  <img src="server_figs/hla_b_leader/upload.png" alt="Upload HLA-B Leader">
+  <img src="server_figs/HLA-B-Leader-Matching/upload.png" alt="Upload HLA-B Leader">
 </div>
 
 Upon submission, you will receive a **temporary link** and a **Task ID** that can be used to query job status and retrieve results.
@@ -30,7 +30,7 @@ Search by your Task ID or use the temporary link to view job status and results.
 ### 4. Download Results  
 - **Leader sequence classification** (M/T dimorphism) and **match status**  
   <div align="center">
-    <img src="server_figs/hla_b_leader/demo.png" alt="HLA-B Leader Results">
+    <img src="server_figs/HLA-B-Leader-Matching/demo.png" alt="HLA-B Leader Results">
   </div>
 
 ---

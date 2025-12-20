@@ -17,7 +17,7 @@ Click **IEDB Epitope Cluster** in the analysis menu to access the module.
 - Click the green **View Example** button to access sample data and example results
 
 <div align="center">
-  <img src="server_figs/iedb_cluster/upload.png" alt="Upload IEDB Cluster">
+  <img src="server_figs/IEDB-Epitope-Cluster/upload.png" alt="Upload IEDB Cluster">
 </div>
 
 Upon submission, you will receive a **temporary link** and a **Task ID** that can be used to query job status and retrieve results.
@@ -30,7 +30,7 @@ Search by your Task ID or use the temporary link to view job status and results.
 ### 4. Download Results  
 - **Cluster assignments** with hierarchical subcluster information  
   <div align="center">
-    <img src="server_figs/iedb_cluster/demo.png" alt="IEDB Cluster Results">
+    <img src="server_figs/IEDB-Epitope-Cluster/demo.png" alt="IEDB Cluster Results">
   </div>
 
 ---

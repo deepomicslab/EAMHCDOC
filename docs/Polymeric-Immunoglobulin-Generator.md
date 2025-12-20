@@ -18,7 +18,7 @@ Click **Polymeric Ig Generator** in the analysis menu to access the module.
 - Click the green **View Example** button to access sample data and example results
 
 <div align="center">
-  <img src="server_figs/piggen/upload.png" alt="Upload pIgGen">
+  <img src="server_figs/Polymeric-Immunoglobulin-Generator/upload.png" alt="Upload pIgGen">
 </div>
 
 Upon submission, you will receive a **temporary link** and a **Task ID** that can be used to query job status and retrieve results.
@@ -31,7 +31,7 @@ Search by your Task ID or use the temporary link to view job status and results.
 ### 4. Download Results  
 - **Generated complementary chain sequences**  
   <div align="center">
-    <img src="server_figs/piggen/demo.png" alt="pIgGen Results">
+    <img src="server_figs/Polymeric-Immunoglobulin-Generator/demo.png" alt="pIgGen Results">
   </div>
 
 ---

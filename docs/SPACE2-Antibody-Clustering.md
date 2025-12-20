@@ -17,7 +17,7 @@ Click **SPACE2 Antibody Clustering** in the analysis menu to access the module.
 - Click the green **View Example** button to access sample data and example results
 
 <div align="center">
-  <img src="server_figs/space2/upload.png" alt="Upload SPACE2">
+  <img src="server_figs/SPACE2-Antibody-Model-Clustering/upload.png" alt="Upload SPACE2">
 </div>
 
 Upon submission, you will receive a **temporary link** and a **Task ID** that can be used to query job status and retrieve results.
@@ -30,7 +30,7 @@ Search by your Task ID or use the temporary link to view job status and results.
 ### 4. Download Results  
 - **Structural cluster assignments** with pairwise RMSD values  
   <div align="center">
-    <img src="server_figs/space2/demo.png" alt="SPACE2 Results">
+    <img src="server_figs/SPACE2-Antibody-Model-Clustering/demo.png" alt="SPACE2 Results">
   </div>
 
 ---

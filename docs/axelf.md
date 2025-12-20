@@ -17,7 +17,7 @@ Click **AXEL-F Immunogenicity Scoring** in the analysis menu to access the modul
 - Click the green **View Example** button to access sample data and example results
 
 <div align="center">
-  <img src="server_figs/axelf/upload.png" alt="Upload AXEL-F">
+  <img src="server_figs/AXEL-F/upload.png" alt="Upload AXEL-F">
 </div>
 
 Upon submission, you will receive a **temporary link** and a **Task ID** that can be used to query job status and retrieve results.
@@ -30,7 +30,7 @@ Search by your Task ID or use the temporary link to view job status and results.
 ### 4. Download Results  
 - **Immunogenicity Scores** with integrated binding and expression metrics  
   <div align="center">
-    <img src="server_figs/axelf/demo.png" alt="AXEL-F Results">
+    <img src="server_figs/AXEL-F/demo.png" alt="AXEL-F Results">
   </div>
 
 ---

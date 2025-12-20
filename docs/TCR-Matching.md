@@ -17,7 +17,7 @@ Click **TCR Matching** in the analysis menu to access the module.
 - Click the green **View Example** button to access sample data and example results
 
 <div align="center">
-  <img src="server_figs/tcr_match/upload.png" alt="Upload TCR Matching">
+  <img src="server_figs/TCR-Matching/upload.png" alt="Upload TCR Matching">
 </div>
 
 Upon submission, you will receive a **temporary link** and a **Task ID** that can be used to query job status and retrieve results.
@@ -30,7 +30,7 @@ Search by your Task ID or use the temporary link to view job status and results.
 ### 4. Download Results  
 - **TCR similarity scores** and **cluster assignments**  
   <div align="center">
-    <img src="server_figs/tcr_match/demo.png" alt="TCR Matching Results">
+    <img src="server_figs/TCR-Matching/demo.png" alt="TCR Matching Results">
   </div>
 
 ---

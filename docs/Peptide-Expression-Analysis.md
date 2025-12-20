@@ -17,7 +17,7 @@ Click **Peptide Expression Analysis** in the analysis menu to access the module.
 - Click the green **View Example** button to access sample data and example results
 
 <div align="center">
-  <img src="server_figs/pepx/upload.png" alt="Upload Peptide Expression">
+  <img src="server_figs/Peptide-Expression/upload.png" alt="Upload Peptide Expression">
 </div>
 
 Upon submission, you will receive a **temporary link** and a **Task ID** that can be used to query job status and retrieve results.
@@ -30,7 +30,7 @@ Search by your Task ID or use the temporary link to view job status and results.
 ### 4. Download Results  
 - **Expression annotations** with tissue-specific TPM values  
   <div align="center">
-    <img src="server_figs/pepx/demo.png" alt="Peptide Expression Results">
+    <img src="server_figs/Peptide-Expression/demo.png" alt="Peptide Expression Results">
   </div>
 
 ---

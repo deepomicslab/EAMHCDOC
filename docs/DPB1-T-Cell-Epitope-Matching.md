@@ -17,7 +17,7 @@ Click **DPB1 T-Cell Epitope Matching** in the analysis menu to access the module
 - Click the green **View Example** button to access sample data and example results
 
 <div align="center">
-  <img src="server_figs/dpb1_tce/upload.png" alt="Upload DPB1 TCE">
+  <img src="server_figs/DPB1-T-Cell/upload.png" alt="Upload DPB1 TCE">
 </div>
 
 Upon submission, you will receive a **temporary link** and a **Task ID** that can be used to query job status and retrieve results.
@@ -30,7 +30,7 @@ Search by your Task ID or use the temporary link to view job status and results.
 ### 4. Download Results  
 - **TCE group assignments** and **permissiveness classification**  
   <div align="center">
-    <img src="server_figs/dpb1_tce/demo.png" alt="DPB1 TCE Results">
+    <img src="server_figs/DPB1-T-Cell/demo.png" alt="DPB1 TCE Results">
   </div>
 
 ---
