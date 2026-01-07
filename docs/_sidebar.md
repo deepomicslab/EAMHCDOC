@@ -18,7 +18,7 @@
     -   [Antigen Receptor Classifier](/Antigen-Receptor-Classifier.md)
     -   [BCR Matching](/BCR-Matching.md)
     -   [SPACE2 Antibody Clustering](/SPACE2-Antibody-Clustering.md)
-    -   [Antibody Language Model](/Antibody-Language-Model.md)
+    -   [Antibody Language Model](/Antibody-Language.md)
     -   [Immune Structure Builder](/Immune-Structure-Builder.md)
     -   [Polymeric Immunoglobulin Generator](/Polymeric-Immunoglobulin-Generator.md)
     -   [SCALOP CDR Annotation](/SCALOP-CDR-Annotation.md)
